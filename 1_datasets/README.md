@@ -21,7 +21,7 @@ analysis project.
 
 ## 2. Raw Dataset Overview
 
-**File:** `orders_and_shipments_raw.csv`  
+**File:** [***`orders_and_shipments_raw.csv`***](../1_datasets/orders_and_shipments.raw.csv).
 
 **Description:**  
 The dataset provides detailed information on orders and shipments across
