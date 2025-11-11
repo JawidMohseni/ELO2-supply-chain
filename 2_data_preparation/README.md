@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD013 -->
+
 # 🧼 Data Cleaning Script
 
 **Main file for cleaning  data**: as **Main file for cleaning data:** [***`cleaning_data_script.ipynb`***](./cleaning_data_script.ipynb).
