@@ -225,5 +225,12 @@ This analysis gives us a clear picture of where we're doing well and where we
  need to improve. The good news is that we have solid data to make better
   decisions and serve our customers more reliably.
 
+  ---
+
+## Explore the Data Notebook
+
+If you want to explore the visualizations and  simple analysis we did, check out
+ the **Data Exploration Notebook**:[***`exploration-notebook.ipynb`***](./exploration-notebook.ipynb).
+
 ---
 ***Analysis completed using 2015-2017 shipment data***
