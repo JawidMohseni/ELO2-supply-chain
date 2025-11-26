@@ -1,2 +1,2 @@
-[exclude]
-paths = ["*.ipynb"]
+# .ruff.toml
+exclude = ["*.ipynb"]
