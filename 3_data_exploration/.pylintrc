@@ -1,0 +1,12 @@
+[MESSAGES CONTROL]
+# Disable warnings about redefined names in functions (common pattern)
+disable=redefined-outer-name,import-error,no-name-in-module,invalid-name
+
+[VARIABLES]
+# Allow short names like df, np, plt
+good-names=i,j,k,ex,Run,_,df,plt,np,pd,px,sns
+
+[TYPECHECK]
+# Ignore missing imports (packages may not be installed in linting env)
+ignored-modules=matplotlib,matplotlib.pyplot,numpy,pandas,plotly,plotly.express,seaborn
+
