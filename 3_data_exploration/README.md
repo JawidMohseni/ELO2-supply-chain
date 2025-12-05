@@ -22,7 +22,7 @@ All delays are based on **actual shipment date minus scheduled shipment days**.
 
 ### Where in the World We're Having the Most Trouble
 
-**Oceania and Latin America Experience the Highest Delays**  
+#### **Oceania and Latin America Experience the Highest Delays**
 
 - These regions show the **highest average delivery delays**
 - Delays are consistent across multiple product categories  
