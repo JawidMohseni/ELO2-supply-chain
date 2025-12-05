@@ -1,236 +1,208 @@
-# Global Supply Chain Delivery Analysis  
+# Global Supply Chain Data Exploration  
 
-## Understanding Where Our Deliveries Get Stuck  
-
-### What We Discovered About Our Shipping Performance  
+## What We Discovered About Our Shipping Performance
 
 Over the past three years, we've been tracking how long it takes to get products
- from our warehouse to customers around the world. We looked at every shipment
-  from 2015 through 2017 - more than 2,500 deliveries in total. Here's what we
-   found about where things are running smoothly and where we're hitting roadblocks.
+from our warehouse to customers around the world. We looked at every shipment
+from 2015 through 2017. Here's what we found about where things are running
+smoothly and where we're hitting roadblocks.
 
 ### The Big Picture: How We're Doing Overall
 
-Out of every 100 shipments we send:
+Across all shipments, delivery performance varies widely:
 
-- 68 arrive on time or early
-- 32 arrive later than promised
-- The average delay is about 2 days
-- Some shipments arrive up to a week early, while others can be two weeks late
+- Many shipments arrive on time or early  
+- Many shipments arrive late  
+- Some deliveries arrive extremely late, exceeding 100 days  
+- Delays range from early deliveries (negative delay) to very large late deliveries
+
+All delays are based on **actual shipment date minus scheduled shipment days**.
+
+---
 
 ### Where in the World We're Having the Most Trouble
 
-#### **Africa Deliveries Take the Longest**
+#### **Oceania and Latin America Experience the Highest Delays**
 
-- Average delay: 3 days
-- Nearly 1 in 4 shipments experiences significant delays
-- The challenges: infrastructure issues and customs paperwork
+- These regions show the **highest average delivery delays**
+- Delays are consistent across multiple product categories  
+- Long-distance shipping and infrastructure limitations likely contribute  
 
-#### **Middle East Shipments Running Behind**
+#### **Parts of Asia Also Face Delivery Delays**
 
-- Average delay: Almost 3 days
-- Consistent delays across different types of products
-- The challenges: political factors and transportation logistics
+- Several Asian regions experience persistent late deliveries  
+- Delays vary by product category and shipping method  
 
-#### **Latin America Facing Delays**
-
-- Average delay: 2 days
-- About 1 in 5 shipments affected
-- The challenges: distance from our warehouse and local delivery networks
+---
 
 ### Where We're Doing Well
 
-#### **North America - Our Strongest Region**
+#### **North America - Strong Performance**
 
-- Average delay: Less than 1 day
-- 78% of shipments arrive on time
-- Success factors: close to our warehouse and reliable delivery partners
+- Many shipments arrive on time or early  
+- Reliable transportation and warehouse infrastructure support performance  
 
-#### **Europe - Consistent Performance**
+#### **Europe - Generally Stable**
 
-- Average delay: Just over 1 day
-- 72% on-time delivery
-- Success factors: efficient customs and dependable carriers
+- Delivery performance is mostly consistent  
+- Fewer extreme delays compared to other regions  
 
-#### **Asia-Pacific - Solid Results**
-
-- Average delay: 1.5 days
-- 70% on-time delivery
-- Success factors: good infrastructure and multiple shipping options
+---
 
 ### Which Shipping Methods Work Best
 
-#### **Top Performers:**
+#### **Shipment Mode Performance**
 
-- **First Class**: Less than 1 day delay (85% on-time)
-  - Best for: urgent shipments and expensive items
-- **Same Day**: Just over 1 day delay (80% on-time)
-  - Best for: local deliveries and emergency orders
+- **First Class**: Frequently shows positive delays  
+- **Same Day**: Often arrives early  
+- **Standard and Second Class**: Mixed performance with early and late deliveries
 
-**Need Improvement:**
+This shows that **faster shipment labels do not always guarantee faster delivery**.
 
-- **Standard Class**: Over 2 days delay
-  - Issues: handles high volume with multiple handoffs
-  - 35% of these shipments run late
-- **Second Class**: Nearly 2 days delay
-  - Issues: medium priority means sometimes waiting for space
-  - 28% of these shipments run late
+---
 
 ### Which Products Are Hardest to Deliver On Time
 
-#### **Fishing Equipment from Fan Shop**
+#### **Strength Training Products**
 
-- Average delay: Almost 3 days
-- 40% of fishing gear shipments are late
-- Why: special handling needs and bulky packaging
+- Show the highest average delivery delays  
+- Likely affected by bulk handling and supply constraints  
 
-#### **Golf Equipment**
+#### **Music Products**
 
-- Average delay: 2.5 days
-- 35% of golf shipments are late
-- Why: fragile items require careful packing
+- Frequently experience late deliveries  
+- Likely affected by sourcing and supplier logistics  
 
-#### **Footwear and Exercise Gear**
+#### **Fitness Accessories**
 
-- Average delay: 2 days
-- 30% of these shipments are late
-- Why: bulkier items take longer to process
+- Also experience high average delays  
+- Sensitive to handling and fulfillment timing  
+
+---
 
 ### Our Best-Moving Products
 
-#### **Sports Cleats and Shoes**
+Several products consistently arrive on time or early, especially:
 
-- Average delay: Just over 1 day
-- 82% arrive on time
-- Why: standard sizes and easy to package
+- Lightweight apparel  
+- Standard footwear items  
+- Products with simpler packaging and handling requirements  
 
-#### **Golf Clothing**
-
-- Average delay: 1.3 days
-- 78% arrive on time
-- Why: lightweight and simple to ship
+---
 
 ### When Timing Matters Most
 
-#### **Best Months to Ship**
+Time-based analysis shows that:
 
-- **March**: Only 1.2 days delay
-  - Why: after holiday rush, good weather
-  - Perfect for time-sensitive orders
-- **September**: 1.3 days delay
-  - Why: steady business, carriers have space
-  - Good for large shipments
+- Delivery delays fluctuate across different months  
+- Certain periods experience higher average delays due to shipping volume and capacity
+- Seasonal demand likely contributes to delivery variability  
 
-#### **Toughest Months**
-
-- **December**: Over 3 days delay
-  - Why: holiday chaos, weather problems, carriers overwhelmed
-  - Advice: add 2-3 extra days to delivery estimates
-- **June**: 2.5 days delay
-  - Why: summer peak season, staff vacations
-  - Advice: consider faster shipping options
+---
 
 ### What's Working Well in Our Operations
 
-#### **Our Puerto Rico Warehouse**
+#### **Warehouse Performance**
 
-- Handles all our shipments
-- Takes about 2 days from order to shipment
-- Great location for Americas deliveries
-- Could use support for Europe and Asia shipments
+- **Puerto Rico warehouse shows higher average delays**
+- **U.S. mainland warehouse performs more efficiently**
+- This indicates a major operational bottleneck at the Puerto Rico warehouse  
 
-#### **Distance Matters**
-
-- Short trips (<1000 miles): 1.2 days delay
-- Medium trips (1000-3000 miles): 1.8 days delay
-- Long trips (>3000 miles): 2.7 days delay
+---
 
 ### What We Should Do Now
 
 #### **Quick Fixes (Next Few Weeks)**
 
-1. For Africa shipments, use faster shipping methods
-2. Add extra time to delivery estimates for Middle East
-3. Use First Class for all fishing equipment
-4. Review our Standard Class carrier performance
-5. Be more realistic with customers about delivery times
+1. Prioritize high-delay regions for faster shipment methods  
+2. Review shipment routing for long-distance deliveries  
+3. Improve communication with customers in high-risk delivery zones  
+4. Monitor warehouse congestion more closely  
+5. Track high-delay product categories more frequently  
 
 #### **Medium-Term Improvements (Next Few Months)**
 
-1. Look into adding a European warehouse
-2. Consider an Asian location for Asia-Pacific shipments
-3. Improve packaging for problem products
-4. Create better holiday season plans
-5. Set up better tracking for high-risk shipments
+1. Explore regional warehouse expansion  
+2. Improve supplier coordination for delayed product categories  
+3. Strengthen shipment tracking systems  
+4. Develop regional delivery optimization strategies  
+5. Improve operational planning for peak seasons  
 
 #### **Longer-Term Changes (Next Year)**
 
-1. Consider multiple warehouse locations
-2. Implement better delay prediction systems
-3. Develop carrier performance scorecards
-4. Create seasonal staffing plans
-5. Build better customer communication about delays
+1. Consider multiple warehouse locations  
+2. Implement predictive delay modeling  
+3. Develop carrier performance evaluation systems  
+4. Improve seasonal staffing strategies  
+5. Strengthen long-term customer communication systems  
+
+---
 
 ### What We Know and What We're Still Learning
 
 **What We're Confident About:**
 
-- We have three years of solid delivery data
-- Our tracking is consistent across all regions
-- We understand our product categories well
-- We have good geographic coverage
+- We have three years of solid delivery data  
+- Our tracking is consistent across all regions  
+- Delay calculation is based on actual shipment performance  
+- We have strong geographic coverage  
 
 **What We're Still Figuring Out:**
 
-- Exactly why delays happen (weather? customs? carrier issues?)
-- How current market conditions compare to 2015-2017 data
-- The full financial impact of these delays
-- How delays affect customer satisfaction
+- Exact root causes of extreme delays  
+- Financial impact of long delivery times  
+- How current market conditions compare to historical data  
+- How delays directly affect customer satisfaction  
+
+---
 
 ### Next Steps for Our Team
 
 #### **Immediate Actions (Starting Now)**
 
-- Operations team: Use these findings for daily planning
-- Customer service: Update delivery time estimates
-- Management: Review carrier contracts and performance
+- Operations team: Use these findings for planning  
+- Customer service: Improve delivery transparency  
+- Management: Review high-risk delivery regions and warehouse performance  
 
 #### **Coming Soon**
 
-- Deep dive into why specific routes have problems
-- Cost analysis of delays by product category
-- Development of better delay prediction tools
+- Deeper route-level delay investigation  
+- Cost impact analysis by product category  
+- Development of improved delay forecasting tools  
+
+---
 
 ### How to Use This Information
 
 **For Our Operations Team:**
 
-- Check the regional performance charts when planning shipments
-- Use the monthly patterns for inventory and staffing
-- Choose shipping methods based on what actually works
+- Monitor regional performance trends  
+- Use monthly patterns for logistics planning  
+- Adjust shipment strategies based on real delay behavior  
 
 **For Our Management:**
 
-- Use this data in carrier negotiations
-- Make decisions about warehouse expansion
-- Set realistic customer service standards
+- Support warehouse improvement decisions  
+- Strengthen long-term supply chain planning  
+- Improve supplier and carrier coordination  
 
 **For Customer-Facing Teams:**
 
-- Understand which products typically take longer
-- Set appropriate expectations with customers
-- Know which routes are most reliable for premium service
+- Set realistic expectations for delayed regions  
+- Understand which products tend to arrive late  
+- Use data-backed delivery communication  
 
 This analysis gives us a clear picture of where we're doing well and where we
- need to improve. The good news is that we have solid data to make better
-  decisions and serve our customers more reliably.
+need to improve. The good news is that we now have solid data to make better
+decisions and serve our customers more reliably.
 
-  ---
+---
 
 ## Explore the Data Notebook
 
-If you want to explore the visualizations and  simple analysis we did, check out
- the **Data Exploration Notebook**:[***`exploration-notebook.ipynb`***](./exploration-notebook.ipynb).
+If you want to explore the visualizations and simple analysis we did, check out
+the **Data Exploration Notebook**:  
+[***`exploration-notebook.ipynb`***](./exploration-notebook.ipynb)
 
 ---
-***Analysis completed using 2015-2017 shipment data***
+***Analysis completed using 2015–2017 shipment data***
