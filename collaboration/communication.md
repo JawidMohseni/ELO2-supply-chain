@@ -1,53 +1,67 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
 # Communication
 
 ---
 
 ## Communication Schedule
 
-| Day    | How | The topic of discussion |
-| :----: | :-: | ----------------------: |
-|        |     |                         |
+<!-- markdownlint-disable MD013 -->
+
+| Day        | How                    | The Topic of Discussion |
+|------------|-------------------------|------------------------------------------------------------|
+| Any Weekday | Zoom  Google Teams     | Weekly updates, task distribution, and project progress   |
+| As Needed  | Slack (Private Chat)    | Quick questions, daily follow-ups, debugging, reminders   |
+
+**Meeting Time Window:**  
+Meetings can be scheduled on **any day between 10:00 AM – 11:30 AM (EST)**
+ based on team availability and needed.
+
+---
 
 ## Communication Channels
 
-How often we will get in touch on each channel, and what we will discuss there:
+How often we get in touch on each channel, and what we discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**:  
+  Used to report bugs, data problems, and technical questions.
+
+- **Pull Requests**:  
+  Used for submitting changes, reviewing code, and giving feedback before merging.
+
+- **Slack (Private Chat)**:  
+  This is our **main communication channel**.  
+  Used daily for updates, questions, file sharing, and coordination.
+
+- **Video Calls (Zoom / Google Teams)**:  
+  Used for weekly meetings, planning, and resolving complex issues.
+
+---
 
 ## Availability
 
 ### Availability for calling/messaging
 
-| Day     | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
-|--------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| _name_ |     |     |     |     |     |     |     |
+| Name                    | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|-------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Mohammed Jawed Mohseni  | ✅  | ✅  | ✅  | ✅  | ✅  | x  |  x |
+| Majd Abualsoud          | ✅  | ✅  | ✅  | ✅  | ✅  | x  | x  |
+
+Availability is flexible and coordinated primarily through Slack.
+
+---
 
 ### How many hours everyone has per day
 
-- name: _5h_
-- name: _6h_
-- name: _5h_
-- name: _4h_
-- name: _3h_
+- Mohammed Jawed Mohseni: **2-3 hours per day**
+- Majd Abualsoud: **2–3 hours per day**
+
+---
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes and
-stubbornly getting nowhere. Here is a general guide for when to ask for help
-based on how long you’ve been stuck on the same problem:
+To balance independent learning and team efficiency, we follow this guideline:
 
-1. _0 → 30 min_: Try on your own
-2. _30 → 60 min_: Ask your group for help
-3. _60+ min_: Tag your coaches in Slack, WhatsApp or GitHub
+1. **0 → 30 minutes**: Try to solve the problem independently  
+2. **30 → 60 minutes**: Ask your teammate for help in Slack  
+3. **60+ minutes**: Contact instructors or coaches through Slack or GitHub
+
+This approach helps maintain steady progress while encouraging problem-solving skills.
