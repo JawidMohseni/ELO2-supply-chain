@@ -35,6 +35,29 @@ Our analysis gives a clear, data-driven picture of where and why delays happen.
 
 ---
 
+## 🎥 Final Project Presentation
+
+We have created a **final video presentation and slide deck** that summarize the
+full journey of this project — from problem definition to insights and recommendations.
+
+The presentation includes:
+
+- Project goals and background  
+- Supply chain workflow overview  
+- Research question and methodology  
+- All major visualizations  
+- Key findings and recommendations  
+
+📂 **View the full presentation here:**  
+👉 **[`6_final_presentation/README.md`](6_final_presentation/README.md)**  
+
+📊 **For deeper technical analysis, full calculations, and additional
+ visualizations, visit:**  
+👉 **[`4_data_analysis`](4_data_analysis)**  
+
+This folder contains all notebooks, graphs, and supporting analysis used to
+generate the final insights.
+
 ## 📝 Background
 
 Global supply chains involve multiple steps:
