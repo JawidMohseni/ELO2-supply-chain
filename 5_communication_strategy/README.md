@@ -35,7 +35,7 @@ We are currently using the following channels:
 - ✅ **LinkedIn Post** — Public-facing project summary and findings  
 - ✅ **Direct Messages & Networking** — Interested people can contact us for
   questions and collaboration  
-- 🟡 **Video Presentation (In Progress)** — Final project walkthrough for MIT
+- ✅  **Video Presentation  — Final project walkthrough for MIT
   assessment  
 
 ---
@@ -54,7 +54,7 @@ Our project uses real shipment data to identify:
 
 - GitHub Documentation → ✅ Completed  
 - LinkedIn Project Post → ✅ Shared  
-- Final Video Presentation → 🟡 In progress  
+- Final Video Presentation ✅ completed
 
 ---
 
